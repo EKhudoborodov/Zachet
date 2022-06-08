@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometry-webcam</title>
+</head>
+<body>
+    <h1>Biometry-scan</h1>
+    <img src="{% url 'video_feed' %}" alt=""></img>
+   <style>
+      body {
+         text-align: center;
+         background-color: #061634;
+         padding: 10px 50px; 
+         color: #fff;
+         font-size: 40px;
+      }
+      img {
+         border: 14px solid #fff;
+        border-radius: 10px;
+         overflow: hidden;
+       }
+   </style>
+</body>
+</html>
